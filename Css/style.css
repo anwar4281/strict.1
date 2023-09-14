@@ -1,0 +1,470 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6,ul,p{
+    margin: 0;
+    padding: 0;
+}
+
+.header_wrapper{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    align-items: center;
+
+}
+
+.logo{
+    width: 20%;
+}
+.logo img{
+
+}
+
+.menu{
+    width: 40%;
+    
+}
+.menu nav{
+    
+}
+
+.menu nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    
+}
+
+.menu nav ul li{
+    
+}
+.menu nav ul li a{
+    color: #2d3950;
+    text-decoration: none;
+}
+
+.banner{
+    background-image:url(../images/banner-pic..t.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 90vh;
+    position: relative;
+
+}
+
+.banner_content{
+
+    width: 400px;
+
+    position: absolute;
+    
+    top: 50%;
+    
+    left: 50%;
+    
+    transform: translate(-50%, -50%);
+    
+    text-align: center;
+    }
+    .banner_content h1{
+    
+    color: #ffffff;
+    
+    font-size: 70px;
+    
+    font-weight: 500; 
+}
+
+.banner_content span {
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: #5fc3ff;
+}
+
+.banner_content p{
+    font-size: 12px;
+    color: #ffffff;
+    margin: 30px 0;
+}
+
+.banner_content button{
+    background: transparent;
+    color: #ffffff;
+    padding: 8px 20px;
+    text-transform: capitalize;
+    border: 1px solid #15a4fa;
+    border-radius: 3px;
+    transition: .4s all ease-in-out;
+    cursor: pointer;
+}
+
+.banner_content button:hover{
+    background-color: #15a4fa;
+}
+
+.simple_design{
+    background-color: #f6f9f9;
+}
+.simple_wrapper{
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+
+}
+
+.simple_wrapper h1{
+    font-size: 40px;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+ }
+
+.simple_wrapper p{
+    margin-top: 12px;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.feature_section{
+
+}
+.feature_wrapper{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 35px;
+
+}
+.feature{
+    width: 30%;
+    text-align: center;
+}
+.icon_box{
+    width: 60px;
+    height: 60px;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#48baff+0,48baff+50,5fc3ff+50,5fc3ff+52,5fc3ff+100,7db9e8+100 */
+background: linear-gradient(to right,  #48baff 0%,#48baff 50%,#5fc3ff 50%,#5fc3ff 52%,#5fc3ff 100%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+    color: #ffffff;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+
+}
+.feature h3{
+    padding: 20px;
+    font-size: 13px;
+    font-weight: 200;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+}
+.feature p{
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.portfolio_section{
+    padding: 50px;
+    background: #f9f9f9;
+
+}
+
+.wrapper{
+width: 80%;
+margin: auto;
+}
+.heading{
+margin-bottom: 50px;
+text-align: center;
+}
+.heading h1{
+    font-size: 35px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.heading p{
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.portfolio_item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    
+}
+
+.design{
+    width: 32%;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.design::before{
+    content: '';
+    position: absolute; 
+    bottom: 0;
+    right: 0;
+    width: 0%;
+    height: 0%;
+    background-color: #15a4fa;
+    opacity: .5;
+    transition:.4s all ease-in-out;
+    
+    
+}
+.design:hover::before{
+    width: 100%;
+    height: 100%;
+
+}
+
+.design img{
+    width: 100%;
+}
+
+.icon_list{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    transition: .5s all ease-in-out;
+    z-index: 5;
+}
+.zoom{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    border:1px solid#ffff;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    margin-top: 5px;
+}
+
+.zoom a{
+    color: #ffff;
+}
+.link{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    border:1px solid#ffff;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    margin-left: 5px;
+}
+
+
+.link a{
+    color: #ffff;
+}
+.Contact_us{
+    background-image: url(../images/from-prat.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0px;
+}
+
+.form_wrapper{
+    width: 30%;
+    margin: auto;
+    
+}
+.form_wrapper h2{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 300;
+    padding: 17px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.form_wrapper p{
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 300;
+    padding: 15px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.form_wrapper form{
+
+}
+
+.form_wrapper form input{
+    width: 100%;
+    background: transparent;
+    border: none;
+    border: 1px solid #f6f9f9;
+    padding: 12px;
+    margin-bottom: 20PX;
+}
+
+
+.form_wrapper form input[type="submit"]{
+    background-color: #48baff;
+    padding: 10px 15px;
+}
+
+
+.form_wrapper form textarea{
+    width: 100%;
+    background: transparent;
+    padding: 15px;
+}
+
+
+.submit_prat{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.check{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.check input [type="checkbox"]{
+    text-align: start;
+    margin-bottom: 0%;
+}
+
+.check p{
+    align-items: center;
+}
+
+.submit_btn{
+    margin-top: 17px
+}
+
+
+
+footer{
+    padding: 0px;
+    
+    
+    }
+    .footer_wrapper{
+    
+    width: 80%;
+    
+    margin: auto;
+    
+    display: flex;
+    
+    justify-content: space-between;
+    
+    align-items: center;
+    
+    transform: translate(0px, 30px);
+    }
+    .copy{
+    
+    }
+    .copy p{
+    
+    font-size: 14px;
+    
+    text-transform: capitalize;
+    
+    color: #999;
+    }
+    .social_icon{
+    }
+    .social_icon ul{
+    
+    list-style: none;
+    
+    display: flex;
+    }
+    .social_icon ul li{
+    
+    height: 30px;
+    
+    width: 30px;
+    
+    background: #15a4fa;
+    
+    margin-left: 10px;
+    
+    display: flex;
+    
+    justify-content: center;
+    
+    align-items: center;
+    border: 1px solid #15a4fa;
+    border-radius: 3px;
+    }
+    .social_icon ul li:hover{
+        background-color: #fff;
+        border: 1px solid #15a4fa;
+    }
+    .social_icon ul li:hover a{
+        color: #15a4fa;
+    }
+    .social_icon ul li a{
+    
+    color: #fff;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
